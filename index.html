@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <nav>
+      <h1>Music Player</h1>
+    </nav>
+    <div id="musiccontainer">
+      <img src="coverimg/arjun reddy.jpg" alt="arjun-reddy" id="coverimg" />
+      <audio src="music/arjun reddy.mp3"></audio>
+      <div class="music-info">
+        <h4 id="title">arjun-reddy</h4>
+        <input type="range" name="progressbar" value="0" id="progressbar" />
+        <div class="songtime">
+          <sapn id="ct">0:00</sapn>
+          <sapn id="dur">4:00</sapn>
+        </div>
+        <div class="icons">
+        
+          <img src="icons/hand-point-left-regular.svg" id="prev" />
+          <img src="icons/play-solid.svg" id="play" />
+          <img src="icons/hand-point-right-regular.svg" id="next" />
+        </div>
+      </div>
+    </div>
+   <footer>created by --Venky @2022</footer>
+  </body>
+  <script src="./script.js"></script>
+</html>
